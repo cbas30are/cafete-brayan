@@ -1,0 +1,541 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #f5f5f5;
+	
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+   
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+.nav-menu a {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1em;
+}
+
+.nav-menu a:hover {
+    color: #dcdcdc;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background: url("img/bannercontact.png");
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	height: 650px;
+	filter: brightness(0.9);
+	background-size: auto;
+}
+
+h1 {
+    font-size: 6em;
+    font-family: 'Brush Script MT', cursive;
+    color: #f5f5f5;
+    margin: 20px 0 20px 100px;
+	text-align: left;
+}
+
+.subtitle {
+    font-style: italic;
+    text-align: left;
+    margin: 50px 0 40px 100px;
+    color: #dcdcdc;
+	width: 460px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+	background-color: #3B3340;
+}
+
+.contact-form h2
+{
+	font-size: 3em;
+	color: #F2ECD6;
+	padding: 20px 0 0 0;
+}
+
+
+/* Form Section 
+.contact-form, .branch-info {
+    width: 45%;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #dcdcdc;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    background-color:#3B3340;
+    color: #f5f5f5;
+	border-bottom: 2px solid white;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.submit-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    color: #3b2e2e;
+    border: none;
+    cursor: pointer;
+}
+
+/* Branch Info Section 
+.branch-info{
+	background-color: #F2ECD6;
+	
+}
+.branch-info h2{
+	font-size: 3em;
+	color: #3B3340;
+	padding: 20px 0 0 0;
+}
+
+.branch-info p {
+    margin-top: 10px;
+    color: #3B3340;
+}
+
+.branch-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.branch-table th, .branch-table td {
+    padding: 10px;
+    text-align: left;
+    color: #3B3340;
+}
+
+/* Footer 
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3B3340;
+    color: #dcdcdc;
+    font-size: 0.8em;
+}
+*/
+
+
+
+/* Reset de estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #f5f5f5;
+    background-color: #3B3340;
+}
+
+/* Header y navegación */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+.nav-menu a {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1em;
+}
+
+.nav-menu a:hover {
+    color: #dcdcdc;
+}
+/*
+header {
+    text-align: center;
+    padding: 20px;
+    background: url("img/banner.png");
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    height: 650px;
+    filter: brightness(0.9);
+    background-size: cover;
+}
+*/
+.contact{
+	 
+    text-align: center;
+    padding: 20px;
+    background: url("img/bannercontact.png");
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    height: 650px;
+    filter: brightness(0.9);
+    background-size: cover;
+}
+
+.menus{
+	 
+    text-align: center;
+    padding: 20px;
+    background: url("img/bannermenu.png");
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    height: 650px;
+    filter: brightness(0.9);
+    background-size: cover;
+}
+
+.about{
+	 
+    text-align: center;
+    padding: 20px;
+    background: url("img/bannerabout.png");
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    height: 650px;
+    filter: brightness(0.9);
+    background-size: cover;
+}
+
+/* Títulos y textos destacados */
+h1 {
+    font-size: 6em;
+    font-family: 'Brush Script MT', cursive;
+    color: #f5f5f5;
+    margin: 20px 0 20px 100px;
+    text-align: left;
+}
+
+.subtitle {
+    font-style: italic;
+	font-size: 1.3em;
+    text-align: left;
+    margin: 50px 0 40px 100px;
+    color: #dcdcdc;
+    width: 460px;
+}
+
+/* Contenedores */
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+}
+
+/* Sección About */
+.about-section {
+    padding: 50px 10%;
+    background-color: #3B3340;
+}
+
+.about-section h2 {
+    font-size: 3em;
+    color: #F2ECD6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #dcdcdc;
+    text-align: center;
+}
+
+/* Sección Menu */
+.meals-section, .drinks-section {
+    padding: 30px 10%;
+    background-color: #3B3340;
+}
+
+.meals-section h2, .drinks-section h2 {
+    font-size: 2.5em;
+    color: #3b3340;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.meals, .drinks {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.meal-item, .drink-item {
+    font-size: 1.2em;
+    color: #dcdcdc;
+    padding: 10px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+/* Formato de los elementos del menú */
+
+
+
+
+/* Encabezado */
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #3B3340;
+}
+
+/* Sección Meals */
+.meals-section {
+    background-color: #F2ECD6;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.meals-container {
+    display: flex;
+    justify-content: space-around;
+	color: #3b3340;
+}
+
+.meal-item {
+    text-align: center;
+}
+
+.meal-item img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.meal-item p {
+    font-size: 1.1em;
+    margin-top: 10px;
+    color: #3B3340;
+}
+
+.meal-item .price {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 5px;
+    display: block;
+    color: #3B3340;
+}
+
+/* Sección Drinks */
+.drinks-section {
+    background-color: #A57F60;
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.drinks-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.coffee-note {
+    text-align: center;
+    font-style: italic;
+    margin-top: -10px;
+    color: #F2ECD6;
+    font-size: 0.9em;
+}
+
+.drink-item {
+    text-align: center;
+}
+
+.drink-item img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.drink-item p {
+    font-size: 1.1em;
+    margin-top: 10px;
+    color: #F2ECD6;
+}
+
+.drink-item .price {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 5px;
+    display: block;
+    color: #F2ECD6;
+}
+
+
+/* Formulario de Contacto */
+.contact-form h2 {
+    font-size: 3em;
+    color: #F2ECD6;
+    padding: 20px 0 0 0;
+}
+
+.contact-form, .branch-info {
+    width: 45%;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #dcdcdc;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    background-color: #3B3340;
+    color: #f5f5f5;
+    border-bottom: 2px solid white;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.submit-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    color: #3b2e2e;
+    border: none;
+    cursor: pointer;
+}
+
+/* Información de las Sucursales */
+.branch-info {
+    background-color: #F2ECD6;
+}
+
+.branch-info h2 {
+    font-size: 3em;
+    color: #3B3340;
+    padding: 20px 0 0 0;
+}
+
+.branch-info p {
+    margin-top: 10px;
+    color: #3B3340;
+}
+
+.branch-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.branch-table th, .branch-table td {
+    padding: 10px;
+    text-align: left;
+    color: #3B3340;
+}
+/* section about */
+
+.container2 {
+    display: flex;
+   
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.text-block {
+    padding: 20px;
+    width: 100%;
+	height: 100%;
+	background-color: #f5e7d0;
+}
+
+
+.history {
+    background-color: #8c5e4a;
+    color: #fff;
+	font-size: 5em;
+}
+
+.text-block h2 {
+    font-family: 'Georgia', serif;
+    font-size: 63px;
+    
+}
+
+.text-block p {
+    font-size: 19px;
+    line-height: 1.5;
+	color: black;
+	width: 310px;
+	margin: 87px 0 0 150px;
+	text-align: center;
+}
+
+.image-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3B3340;
+    color: #dcdcdc;
+    font-size: 0.8em;
+}
+
+.footer-logo img
+{
+	width: 80px;
+    height: auto;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Bryan's Café</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="contact">
+		 <div class="header-content">
+            <div class="logo">
+                <img src="img/CAFEBRYAN.png" alt="Bryan's Café Logo" />
+            </div>
+            <nav class="nav-menu">
+                <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <h1>Contact</h1>
+        <p class="subtitle">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Message Subject</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message Body</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Branch Information -->
+        <div class="branch-info">
+            <h2>Branches</h2>
+            <table class="branch-table">
+                <tr>
+                    <th>Address</th>
+                    <th>Contact</th>
+                    <th>Opening Hours</th>
+                </tr>
+                <tr>
+                    <td>76 Devonshire St,<br>Surry Hills NSW</td>
+                    <td>02 9211 1234</td>
+                    <td>Mon - Fri: 6:00 to 14:30<br>Sat-Sun: 7:00 to 15:00</td>
+                </tr>
+                <tr>
+                    <td>451 Pitt St,<br>Haymarket Sydney, NSW</td>
+                    <td>02 9262 5678</td>
+                    <td>Mon - Fri: 6:00 to 16:00<br>Sat-Sun: 7:00 to 15:00</td>
+                </tr>
+                <tr>
+                    <td>31 Alfred Street,<br>Circular Quay, NSW</td>
+                    <td>02 8971 9101</td>
+                    <td>Mon - Fri: 6:00 to 16:00<br>Sat-Sun: 7:00 to 15:00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">
+            <img src="img/CAFEBRYAN.png" alt="Bryan's Café Logo">
+        </div>
+        <p>2024 Bryan's Café | <a href="#" onclick="showPrivacyPolicy()">Privacy Policy</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
